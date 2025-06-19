@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <!-- Sidebar -->
+        <div id="sidebar">
+            <h2>SOURCING</h2>
+            <ul>
+                <li>SOURCING</li>
+                <li>REPRICER</li>
+                <li>LOREM</li>
+                <li>SOURCING</li>
+                <li>REPRICER</li>
+                <li>LOREM</li>
+                <li>SOURCING</li>
+                <li>REPRICER</li>
+                <li>LOREM</li>
+            </ul>
+        </div>
+
+        <!-- Main Content -->
+        <div id="main-content">
+            <!-- Search Bar -->
+            <div id="search-area">
+                <input type="text" id="search" placeholder="Search for products...">
+                <select id="category">
+                    <option value="all">All Categories</option>
+                </select>
+                <button id="searchBtn">SEARCH</button>
+            </div>
+
+            <!-- Product Table -->
+            <div id="product-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Image</th>
+                            <th>Price</th>
+                            <th>Location</th>
+                            <th>Extra Fees</th>
+                        </tr>
+                    </thead>
+                    <tbody id="product-list">
+                        <!-- Products will be dynamically added here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
